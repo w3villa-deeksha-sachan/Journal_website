@@ -1,0 +1,265 @@
+:root {
+  --blue-shade-button: rgb(30, 62, 136);
+  --grey-shade-bg: rgb(242, 242, 242);
+  --blue-background: rgba(0, 0, 255, 0.891);
+  --lightgrey: rgb(216, 216, 216);
+  --dark-grey: rgb(64, 76, 84);
+  --balanced-grey: rgb(107, 107, 107);
+  --medium-grey: rgb(77, 76, 76);
+  --border-radius: 1rem;
+  --standard-padding: 1.5rem;
+  --standard-margin: 0.7rem;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: auto;
+}
+
+.Navbar {
+  background-color: white;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.Navbar ul {
+  display: flex-center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.Navbar ul li {
+  margin-right: 20px;
+  position: relative;
+}
+.Navbar ul li i {
+  margin-right: 5px;
+}
+.Navbar ul li .dropdown-icon {
+  margin-left: 5px;
+}
+.Navbar ul:last-child {
+  margin-right: 0;
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+}
+
+.nav2 {
+  display: flex;
+  align-items: center;
+}
+
+.nav3 {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar-a {
+  background-color: rgb(250, 250, 250);
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-heading {
+  font-family: popi;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.nav-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-icon div {
+  padding: 0 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-icon i {
+  align-self: center;
+}
+
+.nav-icon lable {
+  font-size: 0.7rem;
+  font-weight: 350;
+  text-align: center;
+}
+
+.nav-search {
+  padding-top: 1.5rem;
+  width: 30%;
+}
+.nav-search .search {
+  width: 80%;
+  height: 50%;
+  border: none;
+  margin: -4px;
+  padding: 0;
+}
+.nav-search .All {
+  height: 50%;
+  margin: 0px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+.nav-search .glass {
+  height: 50%;
+  margin: 0px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+
+.nav-items {
+  padding-top: 0.9rem;
+}
+
+.ham {
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: blue;
+}
+
+.nav-items a {
+  font-size: 1rem;
+  vertical-align: top;
+}
+
+.nav-items i {
+  color: white;
+}
+
+nav {
+  background-color: blue;
+  margin: auto;
+}
+
+.dept {
+  display: flex;
+  justify-content: space-between;
+}
+
+.department {
+  list-style-type: none;
+}
+
+.department ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.department li {
+  padding: 1rem;
+  display: inline-block;
+  color: black;
+}
+
+.department li a {
+  vertical-align: middle;
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.department li a:hover {
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
+  background-color: yellow;
+  color: black;
+}
+
+.b-1 {
+  padding: var(--standard-padding);
+  display: flex;
+  -moz-column-gap: var(--standard-padding);
+       column-gap: var(--standard-padding);
+  justify-content: space-around;
+  border-radius: var(--border-radius);
+}
+
+.b-b-1 {
+  width: 70%;
+  border-radius: var(--border-radius);
+  display: flex;
+}
+
+.b-b-2 {
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  gap: var(--standard-padding);
+  width: 30%;
+  row-gap: var(--standard-padding);
+}
+
+.b-b-21 {
+  width: 85%;
+}
+
+.navgray {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(64, 76, 84);
+}
+
+.gray1 {
+  display: flex;
+  padding: 10px;
+  gap: 1rem;
+}
+
+.grayicon {
+  text-align: center;
+}
+
+.graytext {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main {
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+}
+
+.sub {
+  color: rgb(216, 216, 216);
+  font-size: 12px;
+}
+
+.c-1 {
+  text-align: center;
+}
+
+.Options {
+  list-style: none;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.Options li {
+  padding: 1rem;
+  background-color: var(--lightgrey);
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--medium-grey);
+}
+
+.Options li:hover {
+  background-color: var(--blue-background);
+  color: white;
+}/*# sourceMappingURL=header.css.map */
