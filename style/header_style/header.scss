@@ -71,9 +71,9 @@
 
 }
 .nav-heading{
-    font-family:popi;
-    font-size:1rem;
-    font-weight: 800;
+    margin-top:1rem;
+   
+    
 }
     
 .nav-icon {
@@ -227,12 +227,30 @@ nav {
 
 .b-b-1 {
 
-  width: 70%;
+  width: 80%;
   border-radius: var(--border-radius);
   display: flex;
   
 
 }
+
+.carousel-caption d-none d-md-block .btn {
+  background-color: rgb(236, 236, 240);
+  color: white;
+  border: none;
+  font-size: medium;
+  border:none;
+}
+
+.carousal-btn:hover{
+  background-color:blue;
+  color:white;
+}
+.carousel-caption{
+  background-color:transparent !important;
+  padding:85px 2px !important;
+}
+
  
 .b-b-2 {
   border-radius: var(--border-radius);
@@ -286,6 +304,7 @@ nav {
   display: flex;
   padding: 1rem;
   justify-content: center;
+  margin-top:30px;
 
 }
 
@@ -301,5 +320,267 @@ nav {
   background-color: var(--blue-background);
   color: white;
 }
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.heading-c{
+  font-weight:bold;
+  margin-top:30px;
+}
+
+.para-c{
+  margin-top:30px;
+}
+
+
+.da-1{
+  text-align:center;
+  background-color:rgb(250, 247, 247);
+}
+.Options-d {
+  list-style: none;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  margin-top:30px;
+
+}
+
+.Options-d li {
+  padding: 1rem;
+  background-color: var(--lightgrey);
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--medium-grey);
+}
+
+.Options-d li:hover {
+  background-color: var(--blue-background);
+  color: white;
+}
+
+
+.card-d{
+  display:flex;
+  justify-content: space-around;
+}
+.heading-d{
+ margin-top:1.5rem;
+}
+
+.card-body{
+  display:flex;
+  justify-content:space-between;
+  background-color:var(--lightgrey);
+  padding:2px;
+  padding-top:4px;
+  
+}
+
+.card-title{
+  color:gray;
+  font-size:1rem;
+  padding-left:15px;
+  padding-right:15px;
+
+}
+.list-group-item{
+  text-align:left;
+}
+.card-img-top{
+  height:15rem;
+}
+
+
+input[type="number"] {
+  width: 40px;
+  font-size: 15px;
+  text-align: center;
+}
+li button{
+  font-size:0.9rem;
+  background-color:rgb(3, 60, 247);
+  color:white;
+}
+.card-body{
+  background-color:var(--lightgrey);
+  padding:2px;
+  padding-top:4px;
+  
+}
+.card-link{
+  color:gray;
+  font-size:0.8rem;
+  padding-left:0.6rem;
+  padding-right:0.6rem;
+}
+
+.list-group-item div{
+  display:flex;
+  justify-content:space-between;
+}
+.y{
+  gap:0.8rem;
+  padding-top:0.4rem;
+}
+
+.card{
+  height:25rem;
+}
+.btn-d{
+  background-color:blue;
+  margin-top:4rem;
+  margin-bottom:4rem;
+  color:white;
+}
+
+
+.e-allabove{
+  background-color:rgb(202, 201, 201);
+  text-align:center;
+ 
+}
+.e-all{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  margin-top:5rem;
+  padding-bottom:5rem;
+
+}
+
+.fashion{
+  background-color:rgb(234, 231, 231);
+  height:30rem;
+  width:16rem;  
+  
+}
+
+.fashion .c-body{
+  text-align:left;
+  margin-top:1rem;
+  margin-left:1rem;
+   
+}
+.fashion .g-item{
+  text-align:left;
+  margin-top:1rem;
+  margin-left:1.5rem;
+}
+
+
+.fashion img{
+  width:13rem;
+  height:13rem;
+  margin-top:1rem;
+  margin-left:0.5rem
+
+}
+.fashion h4{
+  text-align:left;
+  margin-left:1.5rem;  
+  margin-top:0.5rem; 
+}
+
+.ab{
+  display: flex;
+  justify-content:space-between;
+}
+
+.a button{
+  background-color:blue;
+  color:white;
+}
+
+.fashion2{
+       
+  width:80%;
+  height:30rem;
+  align-items:center;   
+  background-color:white;
+
+}
+.fashion2-heading{
+text-align:left;
+padding-left:1rem;
+margin-top:0.5rem;
+
+}
+.fashion-3{
+margin-top:2rem;
+display:flex;
+justify-content:space-around; 
+
+
+} 
+
+
+.fashion-3 .card{
+  height:22rem;
+}
+.fashion-3 .card-img-top{
+ 
+  object-fit:cover;
+}
+.fashion-3 .g-items{
+  margin-left:1rem;
+  text-align:left;
+}
+
+.fashion-3 .card-title{
+  font-size:0.9rem;
+  margin-left:0.1rem;
+  }
+
+  .fashion-3 .c-body{
+    text-align:left;
+  }
+
+  
+
+ .shop-heading{
+  text-align:center;
+  margin-top:3rem;
+
+ }
+  
+  .slider img {
+    width: 100px;
+    height: 100px;
+    animation: scroll 60s linear infinite;
+    border:1px solid rgb(230, 227, 227);
+  }
+  
+  .slide-track {
+    width: 100%;
+    display: flex;
+    gap: 2em;
+    overflow: hidden;
+  }
+  
+  .slider {
+   
+    margin-top: 40px;
+    padding: 3em 2em;
+  }
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }
+
+
+
+
+
 
 
