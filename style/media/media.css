@@ -9,6 +9,10 @@
   .b-b-1 .carousel-item {
     height: 38vh !important;
   }
+  .b-b-1 .carousel-caption {
+    background-color: transparent !important;
+    padding: 20px 1px !important;
+  }
   .b-b-2 {
     display: flex;
     justify-content: space-between;
@@ -36,6 +40,9 @@
     gap: 0.8rem;
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .Navbar-mobile .nav2 lable {
+    color: white;
   }
   .Navbar {
     display: none;
@@ -133,10 +140,8 @@
   .c-1-mobile .para-c {
     margin-top: 30px;
   }
-  .c-1-mobile .col-md-3 {
-    flex: 0 0 50%; /* Each column takes 50% width to fit two items per row */
-    max-width: 50%; /* Max width set to 50% to keep two items per row */
-    padding: 10px; /* Add some padding around each column */
+  .c-1-mobile .card {
+    width: 100%;
   }
   .Options-d {
     display: none;
@@ -229,6 +234,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .card-d .card {
+    height: 30rem;
+    width: 26rem !important;
+  }
+  .fashion-3 .card {
+    height: 30rem;
+    width: 26rem !important;
+  }
+  .fashion-3 .card img {
+    height: 20rem;
+  }
+  .fashion-3 .g-items {
+    font-size: 1.5rem !important;
+  }
+  .fashion-3 .list-group-item .ab button {
+    font-size: 1.5rem !important;
+  }
+  .fashion-3 .list-group-item .ab .b {
+    gap: 0.5rem;
+  }
+  .fashion-3 .list-group-item .ab i {
+    font-size: 2rem !important;
+  }
+  .fashion-3 .c-body .card-title {
+    padding-top: 1rem;
+    font-size: 1.5rem;
   }
   .wrapper {
     width: 100%;

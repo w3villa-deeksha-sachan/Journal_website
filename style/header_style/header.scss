@@ -364,6 +364,8 @@ nav {
   text-align:center;
   background-color:rgb(250, 247, 247);
 }
+
+
 .Options-d {
   list-style: none;
   display: flex;
@@ -391,9 +393,11 @@ nav {
   display:flex;
   justify-content: space-around; 
   align-items:center;
+  
 }
 .heading-d{
  margin-top:1.5rem;
+ 
 }
 
 .card-body{
@@ -485,6 +489,8 @@ li button{
 .e-allabove{
   background-color:rgb(202, 201, 201);
   text-align:center;
+  padding-top:2rem;
+  
  
 }
 .e-all{
@@ -493,6 +499,7 @@ li button{
   align-items:center;
   margin-top:5rem;
   padding-bottom:5rem;
+  
 
 }
 

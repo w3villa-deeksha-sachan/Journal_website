@@ -278,6 +278,11 @@ h2 {
   display: flex;
 }
 
+.footer-button button {
+  background-color: blue;
+  color: white;
+}
+
 .footer-last {
   background-color: rgb(102, 99, 99);
   display: flex;
