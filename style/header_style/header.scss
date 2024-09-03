@@ -47,6 +47,8 @@
     }
   }
 
+  
+
   .nav1 {
     display: flex;
     align-items: center;
@@ -60,6 +62,10 @@
   .nav3 {
     display: flex;
   align-items: center;
+  }
+
+  .Navbar-mobile {
+     display:none;
   }
 
 .Navbar-a {
@@ -167,6 +173,11 @@ nav {
 
 }
 
+.Navbar-a-mobile{
+  display:none;
+
+}
+
 .dept {
 
   display: flex;
@@ -246,7 +257,8 @@ nav {
   background-color:blue;
   color:white;
 }
-.carousel-caption{
+
+.b-b-1 .carousel-caption{
   background-color:transparent !important;
   padding:85px 2px !important;
 }
@@ -265,6 +277,9 @@ nav {
 .b-b-21 {
   width: 85%;
 }
+.navgray-mobile{
+  display:none;
+}
 
 .navgray{
   display:flex;
@@ -278,7 +293,7 @@ nav {
 
 }
 .grayicon{
-  text-align: center;;
+  text-align: center;
 }
 .graytext{
   padding:0px;
@@ -295,6 +310,9 @@ nav {
     color: rgb(216, 216, 216);
     font-size:12px;
   
+}
+.c-1-mobile{
+  display:none;
 }
 .c-1{
   text-align:center;
@@ -371,7 +389,8 @@ nav {
 
 .card-d{
   display:flex;
-  justify-content: space-around;
+  justify-content: space-around; 
+  align-items:center;
 }
 .heading-d{
  margin-top:1.5rem;
@@ -441,6 +460,25 @@ li button{
   margin-top:4rem;
   margin-bottom:4rem;
   color:white;
+}
+
+.tab-container-1{
+  display:none;
+}
+
+.owl-carousel .item {
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+.owl-carousel .item img {
+ 
+  object-fit: cover; 
+  object-position: center; 
 }
 
 
@@ -580,6 +618,19 @@ justify-content:space-around;
 
 
 
+
+  //for media
+
+  .nav-search .icon-nav-search{
+    display:none;
+  }
+  .nav-icon.hamburger{
+    display:none;
+  }
+
+  .nav-items.cart{
+    display:none;
+  }
 
 
 

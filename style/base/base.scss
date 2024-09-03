@@ -95,6 +95,7 @@ h2 {
     font-size:0.8rem;
     margin-bottom:1rem;
 
+
 }
 .body-c .card-link{
     color:gray;
@@ -137,7 +138,9 @@ h2 {
   .robin{
     display:flex;
     justify-content:center;
-    gap:2rem;
+    gap:3rem;
+  
+   
 
 
   }
@@ -181,6 +184,10 @@ h2 {
 
 .people-r{
   gap:2rem;
+}
+
+.darkgreybg-mobile{
+    display:none;
 }
 
 .darkgreybg{
@@ -261,7 +268,7 @@ h2 {
 .footer-body{
  display:flex;
  justify-content:center;
- 
+
  gap:5rem;
 
  
@@ -276,6 +283,7 @@ h2 {
 .footer-logo{
   text-align:center;
   padding:1rem;
+  background-color:#ebeef1;
   
 }
 .footer-logo i{
@@ -284,8 +292,9 @@ h2 {
 }
 .footer-1 h3{
   font-size:1.2rem;
-  font-weight:bold;
+  font-weight:600;
   margin-bottom:1rem;
+  color:#43484c
 }
 .footer-1 h4{
   font-size:1rem;
@@ -295,4 +304,23 @@ h2 {
 .footer-email{
   display:flex;
 }
+
+.footer-last{
+  background-color:rgb(102, 99, 99);
+  display:flex;
+  justify-content:space-between;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  padding-left:2rem;
+  padding-right:2rem;
+}
+.footer-last-1 h5{
+  font-size:1rem;
+  padding-top:1rem;
+}
+.footer-last-2{
+  font-size:2rem;
+}
+
+ 
 
