@@ -10,8 +10,19 @@
     height: 38vh !important;
   }
   .b-b-1 .carousel-caption {
+    padding-left: 0 !important;
     background-color: transparent !important;
-    padding: 20px 1px !important;
+    bottom: -45px;
+    font-weight: 600;
+  }
+  .b-b-1 .carousel-caption p {
+    font-size: 1rem !important;
+    margin-bottom: 0 !important;
+  }
+  .b-b-1 .carousel-caption button {
+    padding: 0.3rem;
+    font-size: 0.5rem;
+    border-radius: 0;
   }
   .b-b-2 {
     display: flex;
@@ -61,7 +72,6 @@
     gap: 4rem;
     display: flex;
     justify-content: space-between;
-    padding-right: 2rem;
   }
   .Navbar-a {
     display: none;
@@ -264,6 +274,12 @@
   }
   .wrapper {
     width: 100%;
+  }
+  .heading-c .heading-with-border {
+    margin-left: 2rem;
+  }
+  .most-viewed .heading-with-border {
+    margin-left: 1rem !important;
   }
 }
 @media screen and (max-width: 1200px) {

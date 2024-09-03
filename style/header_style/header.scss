@@ -640,5 +640,14 @@ justify-content:space-around;
   }
 
 
-
+  .heading-with-border {
+    display: inline-block; /* Centers the text and border horizontally */
+    position: relative; /* Allows positioning of the border */
+    font-size: 1.7em; /* Adjust as needed for font size */
+    font-weight: bold; /* Optional: make the text bold */
+    margin-bottom: 20px; /* Adds space below the text */
+    padding-bottom: 10px; /* Space between text and underline */
+    border-bottom: 2.6px solid #f46751;
+    /* Adds a red bottom border */
+  }
 

@@ -15,10 +15,26 @@
           }
         }
 
-        .b-b-1 .carousel-caption{
+        .b-b-1 {
+          .carousel-caption{
+          padding-left:0 !important;
           background-color:transparent !important;
-          padding:20px 1px !important;
+          bottom:-45px;
+          font-weight:600;
         }
+        .carousel-caption p{
+          font-size:1rem !important;
+          margin-bottom:0 !important;
+       
+        }
+        .carousel-caption button{
+          padding:0.3rem;
+          font-size:0.5rem;
+          border-radius:0;
+         
+        }
+       
+      }
       
     
       .b-b-2{
@@ -78,7 +94,7 @@
           gap:4rem;
           display:flex;
         justify-content:space-between;
-        padding-right:2rem;
+       
         }
 
       }
@@ -351,6 +367,16 @@
 .wrapper{
   width:100%;
   
+}
+.heading-c{
+.heading-with-border{
+  margin-left:2rem;
+}
+}
+.most-viewed{
+  .heading-with-border{
+    margin-left:1rem !important;
+  }
 }
 
 
